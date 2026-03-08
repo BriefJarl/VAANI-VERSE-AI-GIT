@@ -56,10 +56,10 @@ Framer Motion
 
 ## Demo Video
 
-(Add YouTube link here)
+(Drive Link - https://drive.google.com/file/d/1CPFwi4duOnhyjhdIGDo-pMZW8ZDAwMMe/view?usp=sharing)
 
 ---
 
 ## Live MVP
 
-(Add Netlify link here)
+(https://fabulous-bombolone-5e2bf2.netlify.app/)
