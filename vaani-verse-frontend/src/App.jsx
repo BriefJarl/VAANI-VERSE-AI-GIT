@@ -1,27 +1,25 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
-import AssistantWorkspace from "./pages/AssistantWorkspace";
-import TasksWorkspace from "./pages/TasksWorkspace";
+import useHoverSound from "./hooks/useHoverSound";
+import VoiceWorkspace from "./pages/VoiceWorkspace";
+import CustomCursor from "./components/CustomCursor";
 
-export default function App() {
-
+function App() {
+  useHoverSound();
   return (
-    <Router>
+    
+    <BrowserRouter>
+
+      {/* Custom Cursor */}
+      <CustomCursor />
 
       <Routes>
-
-        {/* Landing Page */}
         <Route path="/" element={<Landing />} />
-
-        {/* AI Study Planner */}
-        <Route path="/app" element={<AssistantWorkspace />} />
-
-        {/* Daily Productivity Dashboard */}
-        <Route path="/tasks" element={<TasksWorkspace />} />
-
+        <Route path="/workspace" element={<VoiceWorkspace />} />
       </Routes>
 
-    </Router>
+    </BrowserRouter>
   );
 }
+
+export default App;
