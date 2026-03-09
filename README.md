@@ -53,6 +53,36 @@ Framer Motion
 • Productivity analytics dashboard
 
 ---
+## 🧠 System Architecture
+
+```mermaid
+flowchart LR
+
+A[User Voice Input 🎤] --> B[React Frontend UI]
+
+B --> C[Voice Processing Layer]
+C --> D[AI Understanding Engine 🤖]
+
+D --> E[Task Generation Service]
+
+E --> F[Supabase Database]
+
+F --> G[Task Dashboard 📋]
+
+G --> H[Productivity Analytics 📊]
+
+H --> I[Insights & Reports]
+
+subgraph AI Layer
+D
+E
+end
+
+subgraph Cloud Infrastructure
+F
+end
+```
+
 
 ## 🎥 Prototype Demo Video
 
