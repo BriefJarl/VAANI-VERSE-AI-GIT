@@ -54,9 +54,11 @@ Framer Motion
 
 ---
 
-## Demo Video
+## 🎥 Prototype Demo Video
 
-(Drive Link - https://drive.google.com/file/d/1CPFwi4duOnhyjhdIGDo-pMZW8ZDAwMMe/view?usp=sharing)
+Watch the working prototype demonstration here:
+
+👉 **[Watch Demo Video](https://drive.google.com/file/d/1w60e5ow1B7E4nccALqEX2mF9De55mhmt/view?usp=sharing)**
 
 ---
 
